@@ -62,7 +62,7 @@ console.log("birtYearMark: " + birthYearMark);
 */
 
 /***** Variablen 3 *****/
-
+/*
 let ageJhon, ageMark;
 ageJohn = 25;
 ageMark = 30;
@@ -70,3 +70,18 @@ ageMark = 30;
 // Operation (Vergleich/Test)
 let isJohnOlder = (ageJohn > ageMark); //Entscheidungsstrukturen 
 console.log(isJohnOlder);
+*/
+
+/***** Variablen 4 *****/
+
+// Zusammenfassung Datentypen 
+
+let nix; //undefiniert
+let ageJohn = 25; //Zahl
+let firstName = "Max"; //Bezeichnend 
+let isJohnOlder = (10 > 5); //Entscheidungsstrukturen 
+
+console.log ("nix: " + typeof nix); //undefined
+console.log ("ageJohn: " + typeof ageJohn); //number
+console.log ("firstName: " + typeof firstName); //string
+console.log ("isJohnOlder: " + typeof isJohnOlder); //boolean 
