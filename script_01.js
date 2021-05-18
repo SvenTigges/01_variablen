@@ -21,7 +21,19 @@ console.log(firstName + " "  + familyName); // leerzeichen und ausgaben kombinie
 */
 
 // Deklaration + Wertzuweisung II
+/*
 let firstName,familyName;
-firstName = "Test";
-familyName = "Test";
+firstName = prompt("Bitte Vornamen eingeben:");
+familyName = prompt("Bitte Namen eingeben:");
 console.log("Hallo, " + firstName + " "  + familyName +"!");
+*/
+
+// JS ist eine untypisierte Sprache! untyped
+/*
+let test; //Deklaration
+test = "hi"; //string
+test = 2; //number
+test = true; //boolean
+console.log("Typ: " + typeof test);
+console.log("Inhalt: " + test);
+*/
