@@ -51,3 +51,11 @@ let year = date.getFullYear();
 //console.log(year);
 ageJohn = 25;
 ageMark = 30; 
+
+//Operation (Differnz)
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+console.log("Aktelle Jahr: " + year); 
+console.log("birtYearJohn: " + birthYearJohn);
+console.log("birtYearMark: " + birthYearMark);
