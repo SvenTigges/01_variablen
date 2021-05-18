@@ -28,7 +28,7 @@ familyName = prompt("Bitte Namen eingeben:");
 console.log("Hallo, " + firstName + " "  + familyName +"!");
 */
 
-// JS ist eine untypisierte Sprache! untyped
+// JS ist eine untypisierte Sprache! | untyped
 /*
 let test; //Deklaration
 test = "hi"; //string
@@ -37,3 +37,17 @@ test = true; //boolean
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
 */
+
+/***** Variablen 02 *****/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Werzuweisung | Assignment 
+let date = new Date();
+let year = date.getFullYear();
+//console.log(date);
+//console.log(year);
+ageJohn = 25;
+ageMark = 30; 
